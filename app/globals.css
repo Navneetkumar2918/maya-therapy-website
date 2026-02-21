@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* ============================= */
+/* THEME */
+/* ============================= */
+:root {
+  --bg-main: #FAF9F6;
+  --green-main: #2F4A2F;
+  --green-light: #4C6A4C;
+}
+
+/* ============================= */
+/* BASE */
+/* ============================= */
+body {
+  margin: 0;
+  background-color: var(--bg-main);
+  color: var(--green-main);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================= */
+/* TYPOGRAPHY */
+/* ============================= */
+
+/* HERO HEADING */
+h1 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 68px;          /* 68 → balanced */
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
+/* SECTION HEADINGS */
+h2 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 50px;          /* 42 → bigger */
+  line-height: 1.2;
+}
+
+/* SMALL HEADINGS */
+h3 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 30px;          /* 22 → better */
+  line-height: 1.4;
+}
+
+/* BODY TEXT */
+p {
+  font-size: 25px;          /* 18 → readable */
+  line-height: 1.8;         /* more breathing space */
+  color: var(--green-light);
+}
+
+/* NAVIGATION */
+nav a {
+  font-family: var(--font-heading);
+  font-size: 25px;          /* slightly bigger */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* BUTTONS */
+button {
+  font-family: var(--font-heading);
+  font-size: 15px;          /* 13 → improved */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
